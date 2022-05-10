@@ -1,0 +1,90 @@
+body{ 
+	font-family:"Arial"; 
+	padding:0; 
+	margin:64px; 
+	font-size:14px; 
+	background: #f5f6f0; 
+	color:#212121; 
+	position: relative; 
+	min-width:1280px;}
+#Black {
+	font-family: Arial Black;
+}
+li{ 
+	list-style:none;}
+ul{ 
+	padding:0; 
+	margin:0;}
+
+a:hover{ 
+	text-decoration:none !important; 
+	color: #272d5a;}
+	
+a:focus{ 
+	text-decoration:none !important; 
+	outline: none !important;}
+	
+button:focus,button:hover{outline: none !important;}
+ul,ol{ margin:0; padding:0; }
+img{ max-width:100%;}
+input,button {outline:none;}
+.title
+{ padding: 10px 0 10px 0;
+  margin: 25px;
+  text-align:center;
+  background: #fff;
+  }
+.title_1{ text-align: center; background: #fff; font-size: 12px; color: #5e5e5e; padding:0px 0; }
+.back-box{ background: #f5f6f0; padding:15px 0; }
+.box-center{ margin:0 25px; }
+.date-txt{ text-align: center; }
+.clearfix:after{ display: table; clear: both; content: ""; }
+.header-list li{ 
+	float: left; 
+	width: 20%; 
+	border:solid 1px #eeefe9; 
+	margin-right: -1px; 
+	text-align: center; 
+	box-sizing: border-box; 
+	line-height: 30px; 
+	background: #f4f4f4; 
+	color: #333;
+	font-size:14px; 	}
+.header-list li.li02{ background: #ddd;}
+.header-list li.li03{ background: #ffdddc;}
+.header-list li.li04{ background: #deffee;}
+.header-list li.li05{ background: #efeefe;}
+.header-list{ margin:15px -5px 5px 0; }
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+	
+}
+table {
+    background-color: transparent;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    background: #f4f4f4;
+	
+}
+.table-bordered>tbody>tr>td{
+    border: 1px solid #ddd;
+	
+}
+.table>tbody>tr>td{
+    padding: 5px;
+    line-height: 1.8564;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    font-size: 16px; text-align: center; vertical-align: middle;
+}
+.table-bordered a{ color: #3041e7; }
+.table>tbody>tr>td.td-back{ background: #deffee; }
+.td-back-b{ background: #ffdddc; }
+.td-back-c{ background: #dcdedd; }
